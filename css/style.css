@@ -161,6 +161,13 @@ html{
   }
 }
 
+.fm {
+  font-size: 30px;
+}
+.fm span {
+  color: #48dbfb;
+}
+
 .sm a{
   color: #fff;
   font-size: 22px;
