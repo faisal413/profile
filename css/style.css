@@ -25,7 +25,7 @@ html{
 
 .navbar{
   position: fixed;
-  background-color: transparent;
+  background-color: #111;
   width: 100%;
   padding: 30px 0;
   top: 0;
@@ -48,8 +48,18 @@ html{
 .logo{
   width: 44px;
   height: 32px;
-  background-image: url(../images/white-logo.png);
+  color: #fff;
+  font-size: 30px;
+  padding: -30px;
   background-size: contain;
+}
+
+.logo:hover {
+  color: #48dbfb;
+}
+
+.logo span {
+  color: #48dbfb;
 }
 
 .menu-toggler{
@@ -90,7 +100,10 @@ html{
 }
 
 .sticky .logo{
-  background-image: url(../images/black-logo.png);
+  color: #48dbfb;
+}
+.sticky .logo span {
+  color: #111;
 }
 
 .sticky .navbar-menu a{
@@ -103,8 +116,9 @@ html{
 
 #home{
   height: 100vh;
-  min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  width: 100vw;
+  min-height: 100vh;
+  background: url(../images/image.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -119,11 +133,11 @@ html{
 
 #home .content{
   width: 100%;
-  color: #fff;
+  color: #48dbfb;
 }
 
 #home .content h1{
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 60px;
 }
 
@@ -540,7 +554,7 @@ section.dark .section-title::after{
 }
 
 footer{
-  background: url(../images/bg.jpg) no-repeat center;
+  background-color: #353b48;
   color: #fff;
   padding: 80px 0;
   text-align: center;
@@ -555,6 +569,10 @@ footer{
   font-size: 16px;
   color: #48dbfb;
   font-weight: 500;
+}
+
+.copyright a:hover {
+  color: #fff;
 }
 
 .goTop{
