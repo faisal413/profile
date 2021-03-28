@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --font: 'Audiowide', cursive
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background-color: #48dbfb60;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #353b48;
+}
+
+.navbar{
+  position: fixed;
+  background-color: rgba(145, 137, 137, 0.24);
+  width: 100%;
+  padding: 20px 0;
+  top: 0;
+  z-index: 999;
+  transition: .3s linear;
+}
+
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.navbar .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-family: var(--font);
+  width: 44px;
+  height: 32px;
+  color: #fff;
+  font-size: 30px;
+  padding: -30px;
+  background-size: contain;
+}
+
+.logo:hover {
+  color: #48dbfb;
+}
+
+.logo span {
+  font-family: var(--font);
+  color: #48dbfb;
+}
+
+.menu-toggler{
+  background: none;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  z-index: 999;
+  display: none;
+}
+
+.menu-toggler span{
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  transition: .3s linear;
+}
+
+.navbar-menu a{
+  font-family: var(--font);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: .2s linear;
+}
+
+.navbar-menu a:hover{
+  color: #48dbfb !important;
+}
+
+.sticky{
+  background-color: #fff;
+  padding: 18px 0;
+}
+
+.sticky .logo{
+  color: #48dbfb;
+}
+.sticky .logo span {
+  color: #111;
+}
+
+.sticky .navbar-menu a{
+  color: #111;
+}
+
+.sticky .menu-toggler span{
+  background-color: #111;
+}
