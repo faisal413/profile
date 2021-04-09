@@ -31,7 +31,15 @@
 
 </head>
 
-<body oncontextmenu="return false">
+<body>
+	  <div class="loader-container">
+    <div class="loader"></div>
+</div>
+<script>
+  $(window).on("load",function(){
+      $(".loader-container").fadeOut(1000);
+  });
+</script>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="inner-width">
