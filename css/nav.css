@@ -16,7 +16,7 @@ html{
 }
 
 ::selection{
-  background-color: #48dbfb60;
+  background-color: #ff000060;
 }
 
 ::-webkit-scrollbar{
@@ -32,6 +32,7 @@ html{
   position: fixed;
   background-color: rgba(145, 137, 137, 0.24);
   width: 100%;
+  height: 70px;
   padding: 20px 0;
   top: 0;
   z-index: 999;
@@ -69,6 +70,10 @@ html{
   color: #48dbfb;
 }
 
+.navbar-menu{
+  margin-top: -20px;
+}
+
 .menu-toggler{
   background: none;
   width: 30px;
@@ -78,6 +83,7 @@ html{
   outline: none;
   z-index: 999;
   display: none;
+  margin-top: -20px;
 }
 
 .menu-toggler span{
@@ -94,7 +100,7 @@ html{
   color: #fff;
   font-size: 15px;
   font-weight: 500;
-  margin-left: 30px;
+  margin: -75px 0 0 30px;
   transition: .2s linear;
 }
 
