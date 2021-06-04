@@ -50,7 +50,7 @@ li {
 
 li a:hover {
     color: #fff;
-    font-weight: bold;
+    font-weight: 400;
     transition: .5s;
 }
 
